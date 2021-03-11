@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?');
+        document.write(`Seu nome tem ${nome.length} letras.<br/>`); 
+        document.write(`Seu nome em maiusculas é ${nome.toUpperCase()}<br/>`); //maiusculas
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`); //minusculas
+        // usar var.toFixed(n) para n numeros após a virgula
+        // usar var.replace('coisa','outra coisa') para substituir a coisa pela outra coisa
+        // usar n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para mostrar o numero em moeda
+    </script>
+</body>
+</html>
